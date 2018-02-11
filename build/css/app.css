@@ -139,7 +139,8 @@ input[type="button"], input[type="submit"] { padding: 0; }
 .item__content { padding: 12px 20px 20px 15px; }
 .item__title { font-size: 20px; letter-spacing: -0.5px; font-family: "Ubuntu", Helvetica, Arial, sans-serif; font-weight: 500; }
 .item__title span { font-size: 13px; letter-spacing: -0.1px; color: #757575; font-family: "Ubuntu", Helvetica, Arial, sans-serif; font-weight: 400; }
-.item__time { display: inline-block; margin-top: 15px; margin-bottom: 13px; font-size: 13px; }
+.item__time { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 15px; margin-bottom: 13px; font-size: 13px; }
+.item__week { margin-left: 3px; }
 .item__descr { font-size: 13px; line-height: 1.2; }
 .item.is-small { width: auto; }
 .item.is-small .item__content { padding: 15px 20px 0 15px; }
@@ -181,7 +182,8 @@ input[type="button"], input[type="submit"] { padding: 0; }
 .product__left { margin-right: 30px; }
 .product__title span { font-size: 24px; color: #757575; font-family: "Ubuntu", Helvetica, Arial, sans-serif; font-weight: 400; }
 .product__subtitle { display: block; font-size: 16px; margin-top: 7px; }
-.product__time { display: inline-block; margin-top: 25px; margin-bottom: 25px; font-size: 16px; }
+.product__time { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 25px; margin-bottom: 25px; font-size: 16px; }
+.product__week { margin-left: 7px; }
 
 .rate { margin-right: 7px; width: 32px; height: 20px; line-height: 20px; font-size: 14px; text-align: center; background-color: #5dbc4a; color: #ffffff; font-family: "Ubuntu", Helvetica, Arial, sans-serif; font-weight: 500; }
 

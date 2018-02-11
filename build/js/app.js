@@ -2966,6 +2966,6 @@ $(document).ready(function () {
     loop: true,
     pagination: false,
     nav: true,
-    navText: ['<img class="btn-prev" src="../img/arrow-left.png" />', '<img class="btn-next" src="../img/arrow-right.png" />']
+    navText: ['<img class="btn-prev" src="img/arrow-left.png" />', '<img class="btn-next" src="img/arrow-right.png" />']
   });
 });
