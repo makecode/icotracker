@@ -1,0 +1,57 @@
+.item
+  width: 255px
+  border: 1px solid #eeeeee
+  box-sizing: border-box
+
+  &__top
+    position: relative
+
+  &__rating
+    display: flex
+    flex-direction: row
+    position: absolute
+    top: 7px
+    right: 7px
+
+  &__content
+    padding: 12px 20px 20px 15px
+
+  &__title
+    font-size: 20px
+    letter-spacing: -.5px
+    +medium
+
+    span
+      font-size: 13px
+      letter-spacing: -.1px
+      color: #757575
+      +regular
+
+  &__time
+    display: inline-block
+    margin-top: 15px
+    margin-bottom: 13px
+    font-size: 13px
+
+  &__descr
+    font-size: 13px
+    line-height: 1.2
+
+  &.is-small
+    width: auto
+
+    .item
+      &__content
+        padding: 15px 20px 0 15px
+
+      &__picture
+        height: 145px
+
+      &__img
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+      &__btn
+        width: 100%

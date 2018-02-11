@@ -1,0 +1,37 @@
+.nav
+
+  &__list
+    display: flex
+    flex-direction: row
+
+  &__el
+    margin-right: 22px
+    letter-spacing: -.3px
+
+    &:last-child
+      margin-right: 0
+
+  &__link
+    font-size: 15px
+    letter-spacing: -.1px
+    color: #ffffff
+    +medium
+
+    &:hover,
+    &:active
+      color: #3f8ad5
+      text-decoration: none
+
+  &.is-footer
+
+    .nav
+
+      &__el
+        margin-right: 20px
+
+      &__link
+        font-size: 14px
+        color: #757575
+
+        &:hover
+          color: #615d5d

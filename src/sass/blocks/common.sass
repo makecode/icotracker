@@ -1,0 +1,91 @@
+=regular
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif
+  font-weight: 400
+
+=medium
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif
+  font-weight: 500
+
+body
+  display: flex
+  flex-direction: column
+  min-width: 1110px
+  font-size: 14px
+  color: #3c3c3c
+  +regular
+
+h1
+  font-size: 36px
+  letter-spacing: -.5px
+
+  &.is-fz-28
+    font-size: 28px
+
+h2
+  font-size: 28px
+  letter-spacing: -.6px
+
+a
+  color: #3f8ad5
+  display: inline-block
+  text-decoration: none
+  cursor: pointer
+  transition: all .3s ease-in-out
+
+  &:hover
+    text-decoration: underline
+
+  &:active,
+  &:focus,
+  &:visited
+    text-decoration: none
+
+img
+  display: inline-block
+  max-width: 100%
+  height: auto
+
+.i-mb-30
+  margin-bottom: 30px
+
+.i-mb-18
+  margin-bottom: 18px
+
+.i-border
+  padding-bottom: 14px
+  border-bottom: 1px solid #eeeeee
+
+.i-medium
+  +medium
+
+.logo
+  display: inline-block
+
+  &__img
+    width: 157px
+
+.copyright
+  font-size: 13px
+  color: #757575
+
+.submit
+
+  .btn
+    font-size: 15px
+    +medium
+
+input[type="button"],
+input[type="submit"]
+  padding: 0
+
+.star
+  display: block
+
+.disqus
+  margin-top: 50px
+
+.features
+  margin-bottom: 40px
+
+
+
