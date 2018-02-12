@@ -5,13 +5,28 @@
   border-bottom: 1px solid #eeeeee
 
   &__left
+    position: relative
+
+  &__rating
+    display: flex
+    flex-direction: row
+    position: absolute
+    top: 7px
+    right: 7px
+
+  &__left
     margin-right: 30px
 
   &__title
+    color: #3c3c3c
+    transition: all .3s ease-in-out
     span
       font-size: 24px
       color: #757575
       +regular
+
+    &:hover
+      opacity: .9
 
   &__subtitle
     display: block
