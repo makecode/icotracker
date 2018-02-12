@@ -1,0 +1,40 @@
+.info
+  margin-top: 12px
+
+  &__list
+    display: flex
+    flex-direction: row
+
+  &__el
+    position: relative
+    padding-right: 20px
+
+    &:after
+      position: absolute
+      content: ''
+      top: 2px
+      right: 11px
+      width: 1px
+      height: 14px
+      background-color: #3c3c3c
+
+    &:last-child
+      &:after
+        display: none
+
+  &__link
+    display: flex
+    align-items: center
+
+    svg
+      font-size: 16px
+      color: #3c3c3c
+
+    &:hover
+      text-decoration: underline
+
+      svg
+        color: #3f8ad5
+
+  &__text
+    margin-left: 5px
