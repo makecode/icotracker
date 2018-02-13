@@ -151,7 +151,7 @@ input[type="button"], input[type="submit"] { padding: 0; }
 .item__rating { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; position: absolute; top: 7px; right: 7px; }
 .item__content { padding: 12px 20px 20px 15px; }
 .item__title { font-size: 20px; letter-spacing: -0.5px; color: #3c3c3c; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; font-family: "Ubuntu", Helvetica, Arial, sans-serif; font-weight: 500; }
-.item__title span { font-size: 13px; letter-spacing: -0.1px; opacity: 0.71; font-family: "Ubuntu", Helvetica, Arial, sans-serif; font-weight: 400; }
+.item__subtitle { font-size: 13px; letter-spacing: -0.1px; color: #757575; font-family: "Ubuntu", Helvetica, Arial, sans-serif; font-weight: 400; }
 .item__time { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 15px; margin-bottom: 13px; font-size: 13px; }
 .item__week { margin-left: 3px; }
 .item__descr { font-size: 13px; line-height: 1.2; }
@@ -196,7 +196,6 @@ input[type="button"], input[type="submit"] { padding: 0; }
 .product__left { margin-right: 30px; }
 .product__title { color: #3c3c3c; line-height: 0.9; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
 .product__title span { font-size: 24px; color: #757575; font-family: "Ubuntu", Helvetica, Arial, sans-serif; font-weight: 400; }
-.product__title:hover { opacity: 0.9; }
 .product__subtitle { display: block; font-size: 16px; margin-top: 7px; }
 .product__time { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-top: 17px; margin-bottom: 13px; font-size: 16px; }
 .product__week { margin-left: 4px; }
